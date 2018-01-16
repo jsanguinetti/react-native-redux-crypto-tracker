@@ -1,3 +1,10 @@
 module.exports = {
-    "extends": "standard"
+    "extends": "standard",
+    "plugins": [
+        "react",
+        "react-native"
+      ],
+    "rules": {
+        "react/jsx-uses-vars": [2]
+    }
 };
